@@ -1,0 +1,25 @@
+extends _templates/main
+block vars
+	- var title = 'Resume'
+	- var description = 'This is why I\'m hot'
+	- var keywords = 'jade,node,gulp,json,static site generation'
+	- var page = 'page-resume'
+	- var resume = locals['resume']
+
+block content
+	div(class="main-content", role="main")
+		h1 Resume
+		p Hi, I'm super simple static site generation. I'm a great tool to have in your toolbox!
+		ul.jobs
+			for job in resume
+				li
+					strong #{job.Company} / 
+					em #{job['Job Title']}
+					small #{job['Start Date']} to #{job['End Date']}
+					| #{job.Summary}
+					if job.List.length > 1
+						ul.details
+							for item in job.List
+								li #{item}
+					else
+						span.details #{job.List}

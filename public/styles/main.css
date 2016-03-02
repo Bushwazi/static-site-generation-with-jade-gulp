@@ -1,0 +1,117 @@
+/**
+* html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+* v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+* html5doctor.com/html-5-reset-stylesheet/
+*/
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+
+body {
+	padding-top: 100px;
+}
+.main-header,
+.main-header nav ul {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.main-header nav {
+	margin-right: 10px;
+}
+.main-header nav ul li {
+	list-style:none;
+	margin: auto 0.5em;
+}
+.main-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	z-index:2; 
+	background: #d0d0d0;
+}
+
+.main-content {
+	padding: 10px;
+}
+.intro,
+.services,
+.skills {
+	padding-bottom: 3em;
+}
+
+.services strong,
+.skills strong,
+.skills em {
+	display: block;
+}
+
+.services li {
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid red;
+}
+
+.skills li {
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid blue;
+}
+.page-resume .jobs {
+	padding: 3em 0;
+}
+.page-resume .jobs > li {
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid blue;
+}
+.page-resume small {
+	display: block;
+}
+.page-resume ul.details {
+	display: block;
+	list-style: disc outside;
+	padding-left: 1.5em;
+}
+.page-resume span.details {
+	display: block;
+}
+small {
+	font-size: 0.75em;
+}
+form {
+	margin: 1em;
+	padding: 1em;
+	border:solid 1px purple;
+}
+label,
+input,
+button {
+	display: block;
+}
+.main-footer {
+	background: #d0d0d0;
+	padding: 0.5em;
+}

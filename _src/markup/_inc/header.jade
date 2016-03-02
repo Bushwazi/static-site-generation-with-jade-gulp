@@ -1,0 +1,11 @@
+header(class='main-header')
+	a(href="/", title='Super Simple', class='main-logo') SUPER SIMPLE
+	nav
+		ul
+			for section in sections
+				if section === 'HOME' 
+					li: a(href="/index.html" title="Visit #{section} page") #{section}
+				else if section === 'BLOG' 
+					li: a(href="/blog" title="Visit #{section} page") #{section}
+				else
+					li: a(href="/#{section.toLowerCase()}.html" title="Visit #{section} page") #{section}

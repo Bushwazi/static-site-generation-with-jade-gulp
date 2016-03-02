@@ -1,0 +1,30 @@
+[
+  {
+    "Service":"Web Design",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius voluptatibus reiciendis necessitatibus assumenda, nihil accusamus minima ab culpa eos consectetur, natus exercitationem cupiditate, autem quod enim hic. Laborum, quasi non!"
+    },
+  {
+    "Service":"Web Development",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius voluptatibus reiciendis necessitatibus assumenda, nihil accusamus minima ab culpa eos consectetur, natus exercitationem cupiditate, autem quod enim hic. Laborum, quasi non!"
+  },
+  {
+    "Service":"Prototyping",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea."
+  },
+  {
+    "Service":"User Experience",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea."
+  },
+  {
+    "Service":"User Interfaces",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea."
+  },
+  {
+    "Service":"SEO",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea."
+  },
+  {
+    "Service":"Database Management",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea."
+  }
+]

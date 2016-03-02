@@ -1,0 +1,19 @@
+extends ../_templates/main
+
+block vars
+	- var title = 'Article Title'
+	- var description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, voluptatum, laudantium. Laboriosam amet, dolores excepturi fugiat neque debitis nulla tenetur dolorum consectetur dicta nisi voluptates laborum iure harum enim tempora!'
+	- var keywords = 'Lorem, Ipsum'
+	- var page = 'page-post'
+	- var key = locals['key']
+	- var categories = locals['categories']
+
+
+block content	
+	section.posts
+		strong CATEGORY: #{key}
+		ul
+		for category, catkey in categories
+			if catkey === key
+				for file in category.files
+					li: a(href='/blog/#{file.replace(".jade",".html")}' title="READ MORE") #{file.replace(/\-/g, " ").replace(".jade","")}

@@ -1,0 +1,23 @@
+doctype html
+html.no-js(lang='en')
+	block vars
+	- var sections = locals['sections']
+	- var posts = locals['posts']
+	head
+		meta(charset="utf-8")
+		title #{title} | Super Simple Site Generation with jade, gulp and JSON
+		meta(name='description', content='#{description}')
+		meta(name="keywords", content="#{keywords}")
+		include ../_inc/head.jade
+	body(class='page-post')
+		include ../_inc/header.jade
+		div(class="main-content", role="main")
+			article
+				block content	
+				small #{publish_date}
+				ul
+					- var categorys = categories.split(',')
+					for category in categorys
+						li: a(href="/blog/category-#{category}.html" title="View posts by: #{category}") #{category}
+		include ../_inc/footer.jade
+		include ../_inc/foot.jade

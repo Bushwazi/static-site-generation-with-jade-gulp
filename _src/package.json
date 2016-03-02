@@ -1,0 +1,30 @@
+{
+  "name": "staticsite",
+  "version": "1.0.0",
+  "description": "SUPER SIMPLE static site generation with gulp, jade and json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bushwazi/static-site-generation-with-jade-gulp.git"
+  },
+  "keywords": [
+    "gulp",
+    "jade",
+    "json"
+  ],
+  "author": "Jason Lydon @bushwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bushwazi/static-site-generation-with-jade-gulp/issues"
+  },
+  "homepage": "https://github.com/Bushwazi/static-site-generation-with-jade-gulp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.7"
+  }
+}

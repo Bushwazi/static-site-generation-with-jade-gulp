@@ -1,0 +1,38 @@
+extends ../_templates/post
+
+block vars
+	- var title = 'How to organize the content'
+	- var description = 'How to organize the jade templates and json to have it make a website'
+	- var publish_date = 'Jan 1 2016'
+	- var keywords = 'nodejs, gulp'
+	- var page = 'page-post'
+	- var categories = 'nodejs,gulp'
+
+
+block content	
+	section.post
+		h1 How to organize the content
+		h2 Directory Structure
+		ul 
+			li _src/
+				ul
+					li markup/
+						ul 
+							li _templates
+							li blog
+							li data
+							li svg
+							li about.jade
+							li contact.jade
+							li index.jade
+							li resume.jade
+					li node_modules/
+						ul
+							li ...
+					li gulpfile.js
+					li package.json
+		h2 The data
+			ul 
+				li resume.json 
+				li services.json 
+				li skills.json 

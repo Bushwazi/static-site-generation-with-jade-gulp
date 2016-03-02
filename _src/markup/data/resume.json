@@ -1,0 +1,74 @@
+[
+  {
+    "Company":"Apple",
+    "Job Title":"President, Founder",
+    "Start Date":"Jan 1 1978",
+    "End Date":"Dec 31 1978",
+    "Summary":"I've been using AI since the 90s and have had design jobs where 50% of the work was in Illustrator",
+    "List":["Lorem Ipsum","Awww shucks","Drink Milk"]
+    },
+  {
+    "Company":"Google",
+    "Job Title":"Doodler",
+    "Start Date":"Jan 1 1978",
+    "End Date":"Dec 31 1978",
+    "Summary":"I use Sketch everyday and I can't wait for everyone to get on board.",
+    "List":["Lorem Ipsum"]
+  },
+  {
+    "Company":"Dell",
+    "Job Title":"Hacker",
+    "Start Date":"Jan 1 1978",
+    "End Date":"Dec 31 1978",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea.",
+    "List":["Lorem Ipsum","Awww shucks","Drink Milk"]
+  },
+  {
+    "Company":"Samsung",
+    "Job Title":"Posthole Digger",
+    "Start Date":"Jan 1 1978",
+    "End Date":"Dec 31 1978",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea.",
+    "List":["Lorem Ipsum","Awww shucks","Drink Milk"]
+  },
+  {
+    "Company":"Roku",
+    "Job Title":"Programmer",
+    "Start Date":"Jan 1 1978",
+    "End Date":"Dec 31 1978",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea.",
+    "List":["Lorem Ipsum","Awww shucks","Drink Milk"]
+  },
+  {
+    "Company":"Haro Bikes",
+    "Job Title":"Back flipper",
+    "Start Date":"Jan 1 1978",
+    "End Date":"Dec 31 1978",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea.",
+    "List":["Lorem Ipsum","Awww shucks","Drink Milk"]
+  },
+  {
+    "Company":"Burton Snowboards",
+    "Job Title":"Misty flipper",
+    "Start Date":"Jan 1 1978",
+    "End Date":"Dec 31 1978",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea.",
+    "List":["Lorem Ipsum","Awww shucks","Drink Milk"]
+  },
+  {
+    "Company":"Atari",
+    "Job Title":"Burgertime flipper",
+    "Start Date":"Jan 1 1978",
+    "End Date":"Dec 31 1978",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea.",
+    "List":["Lorem Ipsum","Awww shucks","Drink Milk"]
+  },
+  {
+    "Company":"Nintendo",
+    "Job Title":"Winner",
+    "Start Date":"Jan 1 1978",
+    "End Date":"Dec 31 1978",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea.",
+    "List":["Lorem Ipsum","Awww shucks","Drink Milk"]
+  }
+]

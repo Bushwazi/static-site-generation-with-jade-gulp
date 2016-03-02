@@ -1,0 +1,16 @@
+footer(class='main-footer')
+	strong Pages
+	ul
+		for section in sections
+			if section === 'HOME' 
+				li: a(href="/index.html" title="Visit #{section} page") #{section}
+			else if section === 'BLOG' 
+				li: a(href="/blog" title="Visit #{section} page") #{section}
+			else
+				li: a(href="/#{section.toLowerCase()}.html" title="Visit #{section} page") #{section}
+	strong Writings
+	ul
+		for post in posts
+			li
+				a(href="/blog/#{post.file.replace('.jade','.html')}" title="") #{post.title}
+	small 2016 SUPER SIMPLE STATIC SITE GENERATION. You're welcome.

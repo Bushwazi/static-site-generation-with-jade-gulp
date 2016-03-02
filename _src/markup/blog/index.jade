@@ -1,0 +1,30 @@
+extends ../_templates/main
+
+block vars
+	- var title = 'Article Title'
+	- var description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, voluptatum, laudantium. Laboriosam amet, dolores excepturi fugiat neque debitis nulla tenetur dolorum consectetur dicta nisi voluptates laborum iure harum enim tempora!'
+	- var keywords = 'Lorem, Ipsum'
+	- var page = 'page-post'
+
+
+block content	
+	section.posts
+		strong Writings
+		ul
+			for post in posts
+				li
+					strong #{post.title}
+					p #{post.description}
+					span #{post.published}
+					br
+					a(href="/blog/#{post.file.replace('.jade','.html')}" title="") Read More >
+		hr
+		strong Categories
+		ul
+			for category, key in categories
+				li
+					strong #{key}
+					br
+					ul
+						for file in category.files
+							li: a(href="/blog/#{file.replace('.jade','.html')}" title="") #{file.replace('.jade','').replace(/\-/g, " ").toUpperCase()}

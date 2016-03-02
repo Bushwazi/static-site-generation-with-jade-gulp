@@ -1,0 +1,22 @@
+extends ../_templates/post
+
+block vars
+	- var title = 'Why do this? What is the point?'
+	- var description = 'WTF is the point of building a static website?'
+	- var publish_date = 'Feb 2 2016'
+	- var keywords = 'nodejs, gulp'
+	- var page = 'page-post'
+	- var categories = 'nodejs,gulp,wang-chung tonight'
+
+
+block content	
+	section.post
+		h1 But, why?
+		p For a lot of websites, full on Content Management Systems are overkill. I've lost count of how many sites I've built in WordPress and clients still have me update or when you do go in for theme updates, you see three posts, all of them over a year old. What is the point of all the over head?
+		p I am a fan of learning how to do things. I appreciate frameworks, plugins and libraries, but I also thing using them all the time cheats the developer of the opportunity to learn core concepts. So that being said, I recently had a project with a slim deadline. It had an over designed homepage with templated case study pages. I could have easily built the site with basic PHP includes, but I had seen Jade Templates around and I was in the process of learning Express. So I figured if I had time, I could rework the site in Express and already have all the templates built. What I didn't know until I got an email form O'Reilly publishing, is I was just being a hipster creating my own Static Site Generator.
+		p 
+			| Here is a link to O'Reilly's free book:
+			a(href="http://www.oreilly.com/web-platform/free/static-site-generators.csp" title="Get the book") Static Site Generators: Modern Tools for Static Website Development
+		p So to answer the queston, why did this dude create this thing? Well, after skimming through that book, I realized my approach was easy and you don't need generator to build a static website. I agree with the benefits noted in the book. A static website should perform well, can be hosted anywhere, is secure and can easily be version controlled. If you are a web developer, you already have all the skills you need.
+		p So, I stopped to think what should I make as an example. To-do MVC is the standard, but I recently learnt that over 60 million on the internet are WordPress sites. Why? Well because you can spin off some pages and some posts and tie it all together with a decent template pretty easily. And WordPress' dashboard is on point. That is why I've used it for my clients in the past. Makes good horse sense to me.
+		

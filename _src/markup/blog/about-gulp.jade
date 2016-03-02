@@ -1,0 +1,34 @@
+extends ../_templates/post
+
+block vars
+	- var title = 'More about the gulpfile'
+	- var description = 'The gulpfile is not just a task managed, its magic!'
+	- var publish_date = 'Feb 23 2016'
+	- var keywords = 'nodejs, gulp'
+	- var page = 'page-post'
+	- var categories = 'nodejs,gulp'
+
+
+block content	
+	section.post
+		h1 The gulpfile walk through
+		h2 The requirements
+		pre
+			code 
+				| var fs = require('fs'),
+				| &nbsp;&nbsp;gulp = require('gulp'),
+				| &nbsp;&nbsp;gutil = require('gulp-util'),
+				| &nbsp;&nbsp;jade = require('gulp-jade');
+		p Just your basic node require modules.
+		ul 
+			li: a(href="https://nodejs.org/api/fs.html" title="Learn more about node fs") fs is for node files system commands.
+			li: a(href="http://gulpjs.com/" title="Learn more about GulpJS") gulpjs is the task managed
+			li: a(href="https://www.npmjs.com/package/gulp-util" title="Learn more about gulp-util") gulp-util adds a little more functionality to gulp. I mostly use it for error logging
+			li: a(href="http://jade-lang.com/" title="Learn more about Jade Templates") Jade Templates are my preferred markup template system 
+		h2 The HTML Task
+		pre
+			code 
+				| gulp.task('html', function() {
+				| ...
+				| });
+		p The task that converts the jade and json into static HTML 

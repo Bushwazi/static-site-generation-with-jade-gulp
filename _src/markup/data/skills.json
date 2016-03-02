@@ -1,0 +1,62 @@
+[
+  {
+    "Skill":"Adobe Illustrator",
+    "Skill Level":"8",
+    "Summary":"I've been using AI since the 90s and have had design jobs where 50% of the work was in Illustrator"
+    },
+  {
+    "Skill":"SketchApp",
+    "Skill Level":"7",
+    "Summary":"I use Sketch everyday and I can't wait for everyone to get on board."
+  },
+  {
+    "Skill":"Adobe Photoshop",
+    "Skill Level":"5",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea."
+  },
+  {
+    "Skill":"HTML[5]",
+    "Skill Level":"5",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea."
+  },
+  {
+    "Skill":"CSS[3]",
+    "Skill Level":"5",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea."
+  },
+  {
+    "Skill":"Javascript",
+    "Skill Level":"5",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea."
+  },
+  {
+    "Skill":"PHP",
+    "Skill Level":"5",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea."
+  },
+  {
+    "Skill":"WordPress",
+    "Skill Level":"5",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea."
+  },
+  {
+    "Skill":"JSON",
+    "Skill Level":"5",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea."
+  },
+  {
+    "Skill":"SEO",
+    "Skill Level":"5",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea."
+  },
+  {
+    "Skill":"PHP",
+    "Skill Level":"5",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea."
+  },
+  {
+    "Skill":"PHP",
+    "Skill Level":"5",
+    "Summary":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil ducimus nobis culpa possimus eum nulla, tempore suscipit. Cumque eveniet minima quae ad officiis assumenda, quasi corrupti dolore beatae ea."
+  }
+]

@@ -1,0 +1,25 @@
+extends _templates/main
+block vars
+	- var title = 'Contact Us'
+	- var description = 'No need for a library'
+	- var keywords = 'jade,node,gulp,json,static site generation'
+	- var page = 'page-contact'
+
+block content
+	div(class="main-content", role="main")
+		section.intro
+			h1 Contact Us
+			p This is a good spot to add a WuFoo form or something along those lines. Tools like WuFoo are what really make Static Site Generation a viable option. If you aren't following, then check out this [free O'Reilly book](http://www.oreilly.com/web-platform/free/static-site-generators.csp)
+			form 
+				fieldset
+					legend Contact Us 
+					p I don't actually do anything
+					label(for="last-name") Last Name:
+					input(type="text" name="last-name" id="last-name" placeholder="Doe")
+					label(for="first-name") First Name:
+					input(type="text" name="first-name" id="first-name" placeholder="Jane")
+					label(for="contact") Contact Info:
+					input(type="text" name="contact" id="contact" placeholder="Email, Phone or both")
+					label(for="message") Message:
+					textarea(name="message" id="message")
+					button(type="submit") SEND
