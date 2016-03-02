@@ -3,17 +3,22 @@ var fs = require('fs'),
     gutil = require('gulp-util'),
     jade = require('gulp-jade'),
     rename = require("gulp-rename"),
+    // above, just your standard set of module requirements
+    // below, setting up some Regular Expressions
     titleRegExp = /var title \=(.*?)\n/g,
     catRegExp = /var categories \=(.*?)\n/g,
     descriptionRegExp = /var description \=(.*?)\n/g,
     publishDateRegExp = /var publish_date \=(.*?)\n/g,
+    // variable initializing
     fileName = null,
     pageTitle = null,
     pageCategories = null,
+    // starting to Javascript objects to store data
     blogPostJson = new Object(),
     blogCategoryJson = new Object(),
     currentFile = null,
     postCounter = null,
+    // an array that has the name of each page we want in the navigation
     websiteLinks = ['HOME','ABOUT','RESUME','BLOG','CONTACT'];
 
 gulp.task('html', function() {
@@ -33,6 +38,7 @@ gulp.task('html', function() {
   	// console.log("START: buildBlogData\n", data);
     data.map(function(url, ind, arr){
     	// console.log("START MAP"); 
+      // if the page is jade and is not the index or category page
       if(url.indexOf(".jade") > 0 && url.indexOf("index") < 0 && url.indexOf("category") < 0){
       	currentFile = fs.readFileSync("./markup/blog/" + url, 'utf8');
       	fileName = url;
