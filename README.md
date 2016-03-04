@@ -1,5 +1,7 @@
 # static-site-generation-with-jade-gulp
 
+This code goes along with an article I published on Medium: [SUPER SIMPLE Static Site Generation with Node, Jade, Gulp and JSON](https://medium.com/@bushwazi/super-simple-static-site-generation-with-node-jade-gulp-and-json)
+
 ## SUPER SIMPLE Static Site Generation with Jade, Gulp and JSON.
 
 
